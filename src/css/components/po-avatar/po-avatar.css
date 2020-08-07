@@ -1,14 +1,15 @@
-:root { --shadow-avatar-box-shadow-avatar: var(--shadow-input);
+:root {
+  --shadow-avatar-box-shadow-avatar: var(--shadow-input);
 }
 
 .po-avatar {
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 150px;
-box-shadow: var(--shadow-avatar-box-shadow-avatar);
-display: flex;
-margin: 5px;
-overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 150px;
+  box-shadow: var(--shadow-avatar-box-shadow-avatar);
+  display: flex;
+  margin: 5px;
+  overflow: hidden;
 }
 
 .po-avatar-image {
@@ -16,7 +17,8 @@ overflow: hidden;
 }
 
 .po-avatar.po-avatar-xs {
-  height: 24px; width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .po-avatar.po-avatar-sm {
